@@ -1,0 +1,105 @@
+ /*
+Program name: patient-form.html
+Author: David Joseph
+Date created: 09/08/2025
+Date last edited: 09/23/2025
+Version: 1.0
+Description: New patient intake form CSS
+*/
+
+header 
+{
+    width: 100%;
+    background-color: rgb(168, 216, 246);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(201, 230, 246);
+    margin: 0;
+    height: 100%;
+    min-height: 100vh; /* page is height of the viewport */
+}
+
+form 
+{
+    flex-grow: 1;
+}
+
+h1, h2 
+{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+main {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image {
+    text-align: left;
+}
+
+.td1 {
+    text-align: right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+th {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(168, 216, 246);
+    height: 2.5 rem;
+}
+
+#footer {
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+input {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+textarea {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+#today {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+p {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
